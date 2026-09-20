@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    /* border: 1px solid; */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    background: #f6f7fb;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.card {
+    flex: 1 1 180px;
+    min-height: 160px;
+    background: white;
+    padding: 20px;
+    border: 1px solid #d9e0ea;
+    border-radius: 8px;
+}
+
+.card__eyebrow {
+    font-size: 12px;
+    font-weight: 600;
+    color: #12766e;
+    margin: 0 0 12px;
+}
+
+h3 {
+    color: #172033;
+    margin: 0 0 8px;
+}
+
+p {
+    color: #64758b;
+    line-height: 1.5;
+}
