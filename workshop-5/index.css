@@ -107,3 +107,8 @@ strong {
     margin-top: 12px;
     font-size: 28px;
 }
+
+.link-workshop a {
+    color: black;
+    text-decoration: underline;
+}
